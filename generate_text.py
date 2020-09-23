@@ -2,7 +2,7 @@ from functions import generate_text
 import datetime
 from LyricsModel import TrainedLyricsModel
 
-date = datetime.datetime.now().date()
+date = datetime.datetime.now()
 
 filepath = "weights.hdf5"
 
